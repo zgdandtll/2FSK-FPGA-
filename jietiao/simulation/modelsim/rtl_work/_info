@@ -1,0 +1,166 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\zgd\Desktop\jietiao\simulation\modelsim
+vDDS
+Izl09=41k6j3D:kbBJa]l_2
+V4N=VZW]4RLULY<[z0A2[82
+Z1 dC:\Users\zgd\Desktop\jietiao\simulation\modelsim
+w1719217521
+8C:/Users/zgd/Desktop/jietiao/rtl/DDS.v
+FC:/Users/zgd/Desktop/jietiao/rtl/DDS.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/Users/zgd/Desktop/jietiao/rtl -O0
+n@d@d@s
+!i10b 1
+!s100 _V@eF`>4R;5X<NGViP35l1
+!s85 0
+!s108 1719219056.647000
+!s107 C:/Users/zgd/Desktop/jietiao/rtl/DDS.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/zgd/Desktop/jietiao/rtl|C:/Users/zgd/Desktop/jietiao/rtl/DDS.v|
+!s101 -O0
+vfangwen
+I`FHmiTF5To8^;43iTcXUX2
+Vdn<eBTN1SFnGe;QRodU4X3
+R1
+w1719135971
+8C:/Users/zgd/Desktop/jietiao/rtl/fangwen.v
+FC:/Users/zgd/Desktop/jietiao/rtl/fangwen.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 H>BkOhm_6e3oDfE]JZ^??0
+!s85 0
+!s108 1719219056.570000
+!s107 C:/Users/zgd/Desktop/jietiao/rtl/fangwen.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/zgd/Desktop/jietiao/rtl|C:/Users/zgd/Desktop/jietiao/rtl/fangwen.v|
+!s101 -O0
+vfsk_module
+IMBBMaXCBLA6A8G=^JZ4II3
+V08`a8NBQj@lS1Z^]@S:@V0
+R1
+w1719218719
+8C:/Users/zgd/Desktop/jietiao/rtl/tiaozhi.v
+FC:/Users/zgd/Desktop/jietiao/rtl/tiaozhi.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 jWG791DRQN8UKQ3z9^AmF0
+!s85 0
+!s108 1719219056.178000
+!s107 C:/Users/zgd/Desktop/jietiao/rtl/tiaozhi.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/zgd/Desktop/jietiao/rtl|C:/Users/zgd/Desktop/jietiao/rtl/tiaozhi.v|
+!s101 -O0
+vjietiao
+ISC7cRgMLVjB=baLEK1B[?0
+VjLA:66_:5mn:_Og[AUV993
+R1
+w1719218828
+8C:/Users/zgd/Desktop/jietiao/rtl/jietiao.v
+FC:/Users/zgd/Desktop/jietiao/rtl/jietiao.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 ?eA30I][doSCVE=GFAGJR1
+!s85 0
+!s108 1719219056.492000
+!s107 C:/Users/zgd/Desktop/jietiao/rtl/jietiao.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/zgd/Desktop/jietiao/rtl|C:/Users/zgd/Desktop/jietiao/rtl/jietiao.v|
+!s101 -O0
+vjietiao_tb
+!i10b 1
+!s100 KKg55UU`ni44hYgO929H;0
+IIbOZ<0[0N@DfWoX:kXQAY0
+V9b^ToeFWk>UUQk4HMV4C21
+R1
+w1719218971
+8C:/Users/zgd/Desktop/jietiao/jietiao_tb.v
+FC:/Users/zgd/Desktop/jietiao/jietiao_tb.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1719219056.726000
+!s107 C:/Users/zgd/Desktop/jietiao/jietiao_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/zgd/Desktop/jietiao|C:/Users/zgd/Desktop/jietiao/jietiao_tb.v|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+C:/Users/zgd/Desktop/jietiao -O0
+vrom1
+IEkQP5VKg^VIbh2nCIaf?O2
+V`hda7@G==c9dGF7kF5CDb2
+R1
+w1719147458
+8C:/Users/zgd/Desktop/jietiao/rtl/rom1.v
+FC:/Users/zgd/Desktop/jietiao/rtl/rom1.v
+L0 39
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 ]oS_Q?jn58FKdT?SjhVeN2
+!s85 0
+!s108 1719219056.418000
+!s107 C:/Users/zgd/Desktop/jietiao/rtl/rom1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/zgd/Desktop/jietiao/rtl|C:/Users/zgd/Desktop/jietiao/rtl/rom1.v|
+!s101 -O0
+vrom2
+IWzY6kCKhl^j`ZIVkZf:nm0
+VGZF2=@kWo`O8DzB;][0=e0
+R1
+w1719143614
+8C:/Users/zgd/Desktop/jietiao/rtl/rom2.v
+FC:/Users/zgd/Desktop/jietiao/rtl/rom2.v
+L0 39
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 Gm[iT7cJ80T:<]9Mib8Dl1
+!s85 0
+!s108 1719219056.338000
+!s107 C:/Users/zgd/Desktop/jietiao/rtl/rom2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/zgd/Desktop/jietiao/rtl|C:/Users/zgd/Desktop/jietiao/rtl/rom2.v|
+!s101 -O0
+vswitch
+IOGSe1j6M@3SbaYmdV=dfj2
+VF^0;DGkQHND8X4AAO7BXN2
+R1
+w1719192074
+8C:/Users/zgd/Desktop/jietiao/rtl/switch.v
+FC:/Users/zgd/Desktop/jietiao/rtl/switch.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 ;9mS:X]gU;N0YH02MM9LS1
+!s85 0
+!s108 1719219056.265000
+!s107 C:/Users/zgd/Desktop/jietiao/rtl/switch.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/zgd/Desktop/jietiao/rtl|C:/Users/zgd/Desktop/jietiao/rtl/switch.v|
+!s101 -O0

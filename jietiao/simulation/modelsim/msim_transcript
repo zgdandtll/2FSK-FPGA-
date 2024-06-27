@@ -1,0 +1,498 @@
+# Reading D:/Quartus/Quartu_II/modelsim_ase/tcl/vsim/pref.tcl 
+# do jietiao_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying D:\Quartus\Quartu_II\modelsim_ase\win32aloem/../modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/zgd/Desktop/jietiao/rtl {C:/Users/zgd/Desktop/jietiao/rtl/tiaozhi.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module tiaozhi
+# 
+# Top level modules:
+# 	tiaozhi
+# vlog -vlog01compat -work work +incdir+C:/Users/zgd/Desktop/jietiao/rtl {C:/Users/zgd/Desktop/jietiao/rtl/switch.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module switch
+# 
+# Top level modules:
+# 	switch
+# vlog -vlog01compat -work work +incdir+C:/Users/zgd/Desktop/jietiao/rtl {C:/Users/zgd/Desktop/jietiao/rtl/rom2.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module rom2
+# 
+# Top level modules:
+# 	rom2
+# vlog -vlog01compat -work work +incdir+C:/Users/zgd/Desktop/jietiao/rtl {C:/Users/zgd/Desktop/jietiao/rtl/rom1.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module rom1
+# 
+# Top level modules:
+# 	rom1
+# vlog -vlog01compat -work work +incdir+C:/Users/zgd/Desktop/jietiao/rtl {C:/Users/zgd/Desktop/jietiao/rtl/jietiao.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module jietiao
+# 
+# Top level modules:
+# 	jietiao
+# vlog -vlog01compat -work work +incdir+C:/Users/zgd/Desktop/jietiao/rtl {C:/Users/zgd/Desktop/jietiao/rtl/fangwen.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fangwen
+# 
+# Top level modules:
+# 	fangwen
+# vlog -vlog01compat -work work +incdir+C:/Users/zgd/Desktop/jietiao/rtl {C:/Users/zgd/Desktop/jietiao/rtl/DDS.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module DDS
+# 
+# Top level modules:
+# 	DDS
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/zgd/Desktop/jietiao {C:/Users/zgd/Desktop/jietiao/jietiao_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module jietiao_tb
+# 
+# Top level modules:
+# 	jietiao_tb
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L rtl_work -L work -voptargs="+acc"  jietiao_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps jietiao_tb 
+# Loading work.jietiao_tb
+# Loading work.jietiao
+# Loading work.tiaozhi
+# Loading work.fangwen
+# Loading work.rom1
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.rom2
+# Loading work.DDS
+# Loading work.switch
+# ** Warning: (vsim-3017) C:/Users/zgd/Desktop/jietiao/jietiao_tb.v(9): [TFMPC] - Too few port connections. Expected 7, found 6.
+# 
+#         Region: /jietiao_tb/u1
+# ** Warning: (vsim-3722) C:/Users/zgd/Desktop/jietiao/jietiao_tb.v(9): [TFMPC] - Missing connection for port 'count'.
+# 
+# ** Warning: (vsim-3015) C:/Users/zgd/Desktop/jietiao/rtl/fangwen.v(14): [PCDPC] - Port size (12 or 12) does not match connection size (11) for port 'q'. The port definition is at: C:/Users/zgd/Desktop/jietiao/rtl/rom1.v(42).
+# 
+#         Region: /jietiao_tb/u1/u1/u1/rom1
+# ** Warning: (vsim-3015) C:/Users/zgd/Desktop/jietiao/rtl/fangwen.v(20): [PCDPC] - Port size (12 or 12) does not match connection size (11) for port 'q'. The port definition is at: C:/Users/zgd/Desktop/jietiao/rtl/rom2.v(42).
+# 
+#         Region: /jietiao_tb/u1/u1/u1/rom2
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+do jietiao_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying D:\Quartus\Quartu_II\modelsim_ase\win32aloem/../modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/zgd/Desktop/jietiao/rtl {C:/Users/zgd/Desktop/jietiao/rtl/tiaozhi.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module tiaozhi
+# 
+# Top level modules:
+# 	tiaozhi
+# vlog -vlog01compat -work work +incdir+C:/Users/zgd/Desktop/jietiao/rtl {C:/Users/zgd/Desktop/jietiao/rtl/switch.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module switch
+# 
+# Top level modules:
+# 	switch
+# vlog -vlog01compat -work work +incdir+C:/Users/zgd/Desktop/jietiao/rtl {C:/Users/zgd/Desktop/jietiao/rtl/rom2.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module rom2
+# 
+# Top level modules:
+# 	rom2
+# vlog -vlog01compat -work work +incdir+C:/Users/zgd/Desktop/jietiao/rtl {C:/Users/zgd/Desktop/jietiao/rtl/rom1.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module rom1
+# 
+# Top level modules:
+# 	rom1
+# vlog -vlog01compat -work work +incdir+C:/Users/zgd/Desktop/jietiao/rtl {C:/Users/zgd/Desktop/jietiao/rtl/jietiao.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module jietiao
+# 
+# Top level modules:
+# 	jietiao
+# vlog -vlog01compat -work work +incdir+C:/Users/zgd/Desktop/jietiao/rtl {C:/Users/zgd/Desktop/jietiao/rtl/fangwen.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fangwen
+# 
+# Top level modules:
+# 	fangwen
+# vlog -vlog01compat -work work +incdir+C:/Users/zgd/Desktop/jietiao/rtl {C:/Users/zgd/Desktop/jietiao/rtl/DDS.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module DDS
+# 
+# Top level modules:
+# 	DDS
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/zgd/Desktop/jietiao {C:/Users/zgd/Desktop/jietiao/jietiao_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module jietiao_tb
+# 
+# Top level modules:
+# 	jietiao_tb
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L rtl_work -L work -voptargs="+acc"  jietiao_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps jietiao_tb 
+# Loading work.jietiao_tb
+# Loading work.jietiao
+# Loading work.tiaozhi
+# Loading work.fangwen
+# Loading work.rom1
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.rom2
+# Loading work.DDS
+# Loading work.switch
+# ** Warning: (vsim-3017) C:/Users/zgd/Desktop/jietiao/jietiao_tb.v(9): [TFMPC] - Too few port connections. Expected 7, found 6.
+# 
+#         Region: /jietiao_tb/u1
+# ** Warning: (vsim-3722) C:/Users/zgd/Desktop/jietiao/jietiao_tb.v(9): [TFMPC] - Missing connection for port 'count'.
+# 
+# ** Warning: (vsim-3015) C:/Users/zgd/Desktop/jietiao/rtl/fangwen.v(14): [PCDPC] - Port size (12 or 12) does not match connection size (11) for port 'q'. The port definition is at: C:/Users/zgd/Desktop/jietiao/rtl/rom1.v(42).
+# 
+#         Region: /jietiao_tb/u1/u1/u1/rom1
+# ** Warning: (vsim-3015) C:/Users/zgd/Desktop/jietiao/rtl/fangwen.v(20): [PCDPC] - Port size (12 or 12) does not match connection size (11) for port 'q'. The port definition is at: C:/Users/zgd/Desktop/jietiao/rtl/rom2.v(42).
+# 
+#         Region: /jietiao_tb/u1/u1/u1/rom2
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+do jietiao_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying D:\Quartus\Quartu_II\modelsim_ase\win32aloem/../modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/zgd/Desktop/jietiao/rtl {C:/Users/zgd/Desktop/jietiao/rtl/tiaozhi.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module tiaozhi
+# 
+# Top level modules:
+# 	tiaozhi
+# vlog -vlog01compat -work work +incdir+C:/Users/zgd/Desktop/jietiao/rtl {C:/Users/zgd/Desktop/jietiao/rtl/switch.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module switch
+# 
+# Top level modules:
+# 	switch
+# vlog -vlog01compat -work work +incdir+C:/Users/zgd/Desktop/jietiao/rtl {C:/Users/zgd/Desktop/jietiao/rtl/rom2.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module rom2
+# 
+# Top level modules:
+# 	rom2
+# vlog -vlog01compat -work work +incdir+C:/Users/zgd/Desktop/jietiao/rtl {C:/Users/zgd/Desktop/jietiao/rtl/rom1.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module rom1
+# 
+# Top level modules:
+# 	rom1
+# vlog -vlog01compat -work work +incdir+C:/Users/zgd/Desktop/jietiao/rtl {C:/Users/zgd/Desktop/jietiao/rtl/jietiao.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module jietiao
+# 
+# Top level modules:
+# 	jietiao
+# vlog -vlog01compat -work work +incdir+C:/Users/zgd/Desktop/jietiao/rtl {C:/Users/zgd/Desktop/jietiao/rtl/fangwen.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fangwen
+# 
+# Top level modules:
+# 	fangwen
+# vlog -vlog01compat -work work +incdir+C:/Users/zgd/Desktop/jietiao/rtl {C:/Users/zgd/Desktop/jietiao/rtl/DDS.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module DDS
+# 
+# Top level modules:
+# 	DDS
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/zgd/Desktop/jietiao {C:/Users/zgd/Desktop/jietiao/jietiao_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module jietiao_tb
+# 
+# Top level modules:
+# 	jietiao_tb
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L rtl_work -L work -voptargs="+acc"  jietiao_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps jietiao_tb 
+# Loading work.jietiao_tb
+# Loading work.jietiao
+# Loading work.tiaozhi
+# Loading work.fangwen
+# Loading work.rom1
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.rom2
+# Loading work.DDS
+# Loading work.switch
+# ** Warning: (vsim-3017) C:/Users/zgd/Desktop/jietiao/jietiao_tb.v(9): [TFMPC] - Too few port connections. Expected 7, found 6.
+# 
+#         Region: /jietiao_tb/u1
+# ** Warning: (vsim-3722) C:/Users/zgd/Desktop/jietiao/jietiao_tb.v(9): [TFMPC] - Missing connection for port 'count'.
+# 
+# ** Warning: (vsim-3015) C:/Users/zgd/Desktop/jietiao/rtl/fangwen.v(14): [PCDPC] - Port size (12 or 12) does not match connection size (11) for port 'q'. The port definition is at: C:/Users/zgd/Desktop/jietiao/rtl/rom1.v(42).
+# 
+#         Region: /jietiao_tb/u1/u1/u1/rom1
+# ** Warning: (vsim-3015) C:/Users/zgd/Desktop/jietiao/rtl/fangwen.v(20): [PCDPC] - Port size (12 or 12) does not match connection size (11) for port 'q'. The port definition is at: C:/Users/zgd/Desktop/jietiao/rtl/rom2.v(42).
+# 
+#         Region: /jietiao_tb/u1/u1/u1/rom2
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+add wave -position insertpoint  \
+sim:/jietiao_tb/u1/u1/u2/rst_n
+restart
+# ** Warning: (vsim-3017) C:/Users/zgd/Desktop/jietiao/jietiao_tb.v(9): [TFMPC] - Too few port connections. Expected 7, found 6.
+# 
+#         Region: /jietiao_tb/u1
+# ** Warning: (vsim-3722) C:/Users/zgd/Desktop/jietiao/jietiao_tb.v(9): [TFMPC] - Missing connection for port 'count'.
+# 
+# ** Warning: (vsim-3015) C:/Users/zgd/Desktop/jietiao/rtl/fangwen.v(14): [PCDPC] - Port size (12 or 12) does not match connection size (11) for port 'q'. The port definition is at: C:/Users/zgd/Desktop/jietiao/rtl/rom1.v(42).
+# 
+#         Region: /jietiao_tb/u1/u1/u1/rom1
+# ** Warning: (vsim-3015) C:/Users/zgd/Desktop/jietiao/rtl/fangwen.v(20): [PCDPC] - Port size (12 or 12) does not match connection size (11) for port 'q'. The port definition is at: C:/Users/zgd/Desktop/jietiao/rtl/rom2.v(42).
+# 
+#         Region: /jietiao_tb/u1/u1/u1/rom2
+run -all
+add wave -position insertpoint  \
+sim:/jietiao_tb/u1/u1/u1/dout1
+add wave -position insertpoint  \
+sim:/jietiao_tb/u1/u1/u1/dout2
+restart
+# ** Warning: (vsim-3017) C:/Users/zgd/Desktop/jietiao/jietiao_tb.v(9): [TFMPC] - Too few port connections. Expected 7, found 6.
+# 
+#         Region: /jietiao_tb/u1
+# ** Warning: (vsim-3722) C:/Users/zgd/Desktop/jietiao/jietiao_tb.v(9): [TFMPC] - Missing connection for port 'count'.
+# 
+# ** Warning: (vsim-3015) C:/Users/zgd/Desktop/jietiao/rtl/fangwen.v(14): [PCDPC] - Port size (12 or 12) does not match connection size (11) for port 'q'. The port definition is at: C:/Users/zgd/Desktop/jietiao/rtl/rom1.v(42).
+# 
+#         Region: /jietiao_tb/u1/u1/u1/rom1
+# ** Warning: (vsim-3015) C:/Users/zgd/Desktop/jietiao/rtl/fangwen.v(20): [PCDPC] - Port size (12 or 12) does not match connection size (11) for port 'q'. The port definition is at: C:/Users/zgd/Desktop/jietiao/rtl/rom2.v(42).
+# 
+#         Region: /jietiao_tb/u1/u1/u1/rom2
+run -all
+do jietiao_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying D:\Quartus\Quartu_II\modelsim_ase\win32aloem/../modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/zgd/Desktop/jietiao/rtl {C:/Users/zgd/Desktop/jietiao/rtl/tiaozhi.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fsk_module
+# 
+# Top level modules:
+# 	fsk_module
+# vlog -vlog01compat -work work +incdir+C:/Users/zgd/Desktop/jietiao/rtl {C:/Users/zgd/Desktop/jietiao/rtl/switch.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module switch
+# 
+# Top level modules:
+# 	switch
+# vlog -vlog01compat -work work +incdir+C:/Users/zgd/Desktop/jietiao/rtl {C:/Users/zgd/Desktop/jietiao/rtl/rom2.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module rom2
+# 
+# Top level modules:
+# 	rom2
+# vlog -vlog01compat -work work +incdir+C:/Users/zgd/Desktop/jietiao/rtl {C:/Users/zgd/Desktop/jietiao/rtl/rom1.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module rom1
+# 
+# Top level modules:
+# 	rom1
+# vlog -vlog01compat -work work +incdir+C:/Users/zgd/Desktop/jietiao/rtl {C:/Users/zgd/Desktop/jietiao/rtl/jietiao.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module jietiao
+# 
+# Top level modules:
+# 	jietiao
+# vlog -vlog01compat -work work +incdir+C:/Users/zgd/Desktop/jietiao/rtl {C:/Users/zgd/Desktop/jietiao/rtl/fangwen.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fangwen
+# 
+# Top level modules:
+# 	fangwen
+# vlog -vlog01compat -work work +incdir+C:/Users/zgd/Desktop/jietiao/rtl {C:/Users/zgd/Desktop/jietiao/rtl/DDS.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module DDS
+# 
+# Top level modules:
+# 	DDS
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/zgd/Desktop/jietiao {C:/Users/zgd/Desktop/jietiao/jietiao_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module jietiao_tb
+# 
+# Top level modules:
+# 	jietiao_tb
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L rtl_work -L work -voptargs="+acc"  jietiao_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps jietiao_tb 
+# Loading work.jietiao_tb
+# Loading work.jietiao
+# Loading work.fsk_module
+# Loading work.fangwen
+# Loading work.rom1
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.rom2
+# Loading work.DDS
+# Loading work.switch
+# ** Warning: (vsim-3017) C:/Users/zgd/Desktop/jietiao/jietiao_tb.v(9): [TFMPC] - Too few port connections. Expected 7, found 6.
+# 
+#         Region: /jietiao_tb/u1
+# ** Error: (vsim-3063) C:/Users/zgd/Desktop/jietiao/jietiao_tb.v(9): Port 'shuchu' not found in the connected module (5th connection).
+# 
+#         Region: /jietiao_tb/u1
+# ** Warning: (vsim-3722) C:/Users/zgd/Desktop/jietiao/jietiao_tb.v(9): [TFMPC] - Missing connection for port 'count'.
+# 
+# ** Warning: (vsim-3722) C:/Users/zgd/Desktop/jietiao/jietiao_tb.v(9): [TFMPC] - Missing connection for port 'data_module'.
+# 
+# ** Warning: (vsim-3015) C:/Users/zgd/Desktop/jietiao/rtl/fangwen.v(14): [PCDPC] - Port size (12 or 12) does not match connection size (11) for port 'q'. The port definition is at: C:/Users/zgd/Desktop/jietiao/rtl/rom1.v(42).
+# 
+#         Region: /jietiao_tb/u1/u1/u1/rom1
+# ** Warning: (vsim-3015) C:/Users/zgd/Desktop/jietiao/rtl/fangwen.v(20): [PCDPC] - Port size (12 or 12) does not match connection size (11) for port 'q'. The port definition is at: C:/Users/zgd/Desktop/jietiao/rtl/rom2.v(42).
+# 
+#         Region: /jietiao_tb/u1/u1/u1/rom2
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./jietiao_run_msim_rtl_verilog.do PAUSED at line 18
+do jietiao_run_msim_rtl_verilog.do
+# transcript on
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying D:\Quartus\Quartu_II\modelsim_ase\win32aloem/../modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/zgd/Desktop/jietiao/rtl {C:/Users/zgd/Desktop/jietiao/rtl/tiaozhi.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fsk_module
+# 
+# Top level modules:
+# 	fsk_module
+# vlog -vlog01compat -work work +incdir+C:/Users/zgd/Desktop/jietiao/rtl {C:/Users/zgd/Desktop/jietiao/rtl/switch.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module switch
+# 
+# Top level modules:
+# 	switch
+# vlog -vlog01compat -work work +incdir+C:/Users/zgd/Desktop/jietiao/rtl {C:/Users/zgd/Desktop/jietiao/rtl/rom2.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module rom2
+# 
+# Top level modules:
+# 	rom2
+# vlog -vlog01compat -work work +incdir+C:/Users/zgd/Desktop/jietiao/rtl {C:/Users/zgd/Desktop/jietiao/rtl/rom1.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module rom1
+# 
+# Top level modules:
+# 	rom1
+# vlog -vlog01compat -work work +incdir+C:/Users/zgd/Desktop/jietiao/rtl {C:/Users/zgd/Desktop/jietiao/rtl/jietiao.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module jietiao
+# 
+# Top level modules:
+# 	jietiao
+# vlog -vlog01compat -work work +incdir+C:/Users/zgd/Desktop/jietiao/rtl {C:/Users/zgd/Desktop/jietiao/rtl/fangwen.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fangwen
+# 
+# Top level modules:
+# 	fangwen
+# vlog -vlog01compat -work work +incdir+C:/Users/zgd/Desktop/jietiao/rtl {C:/Users/zgd/Desktop/jietiao/rtl/DDS.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module DDS
+# 
+# Top level modules:
+# 	DDS
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/zgd/Desktop/jietiao {C:/Users/zgd/Desktop/jietiao/jietiao_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module jietiao_tb
+# 
+# Top level modules:
+# 	jietiao_tb
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L rtl_work -L work -voptargs="+acc"  jietiao_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps jietiao_tb 
+# Loading work.jietiao_tb
+# Loading work.jietiao
+# Loading work.fsk_module
+# Loading work.fangwen
+# Loading work.rom1
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.rom2
+# Loading work.DDS
+# Loading work.switch
+# ** Warning: (vsim-3017) C:/Users/zgd/Desktop/jietiao/jietiao_tb.v(9): [TFMPC] - Too few port connections. Expected 7, found 6.
+# 
+#         Region: /jietiao_tb/u1
+# ** Warning: (vsim-3722) C:/Users/zgd/Desktop/jietiao/jietiao_tb.v(9): [TFMPC] - Missing connection for port 'count'.
+# 
+# ** Warning: (vsim-3015) C:/Users/zgd/Desktop/jietiao/rtl/fangwen.v(14): [PCDPC] - Port size (12 or 12) does not match connection size (11) for port 'q'. The port definition is at: C:/Users/zgd/Desktop/jietiao/rtl/rom1.v(42).
+# 
+#         Region: /jietiao_tb/u1/u1/u1/rom1
+# ** Warning: (vsim-3015) C:/Users/zgd/Desktop/jietiao/rtl/fangwen.v(20): [PCDPC] - Port size (12 or 12) does not match connection size (11) for port 'q'. The port definition is at: C:/Users/zgd/Desktop/jietiao/rtl/rom2.v(42).
+# 
+#         Region: /jietiao_tb/u1/u1/u1/rom2
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+add wave -position insertpoint  \
+sim:/jietiao_tb/u1/u1/u1/dout1
+add wave -position insertpoint  \
+sim:/jietiao_tb/u1/u1/u1/dout2
+restart
+# ** Warning: (vsim-3017) C:/Users/zgd/Desktop/jietiao/jietiao_tb.v(9): [TFMPC] - Too few port connections. Expected 7, found 6.
+# 
+#         Region: /jietiao_tb/u1
+# ** Warning: (vsim-3722) C:/Users/zgd/Desktop/jietiao/jietiao_tb.v(9): [TFMPC] - Missing connection for port 'count'.
+# 
+# ** Warning: (vsim-3015) C:/Users/zgd/Desktop/jietiao/rtl/fangwen.v(14): [PCDPC] - Port size (12 or 12) does not match connection size (11) for port 'q'. The port definition is at: C:/Users/zgd/Desktop/jietiao/rtl/rom1.v(42).
+# 
+#         Region: /jietiao_tb/u1/u1/u1/rom1
+# ** Warning: (vsim-3015) C:/Users/zgd/Desktop/jietiao/rtl/fangwen.v(20): [PCDPC] - Port size (12 or 12) does not match connection size (11) for port 'q'. The port definition is at: C:/Users/zgd/Desktop/jietiao/rtl/rom2.v(42).
+# 
+#         Region: /jietiao_tb/u1/u1/u1/rom2
+run -all
