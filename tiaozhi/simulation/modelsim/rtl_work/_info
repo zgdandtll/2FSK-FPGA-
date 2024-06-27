@@ -1,0 +1,146 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\zgd\Desktop\tiaozhi\simulation\modelsim
+vDDS
+ICkjL2i_@`o`=QJjW<UE[n3
+V6czKNzYJIa>n3H5Ik6f2D3
+Z1 dC:\Users\zgd\Desktop\tiaozhi\simulation\modelsim
+w1719150187
+8C:/Users/zgd/Desktop/tiaozhi/rtl/DDS.v
+FC:/Users/zgd/Desktop/tiaozhi/rtl/DDS.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/Users/zgd/Desktop/tiaozhi/rtl -O0
+n@d@d@s
+!i10b 1
+!s100 =H[5Ld>k8GG]RKhRJbc`f2
+!s85 0
+!s108 1719150625.632000
+!s107 C:/Users/zgd/Desktop/tiaozhi/rtl/DDS.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/zgd/Desktop/tiaozhi/rtl|C:/Users/zgd/Desktop/tiaozhi/rtl/DDS.v|
+!s101 -O0
+vfangwen
+Ih:oeD15h;@lRA>82_4:Eo2
+Vdn<eBTN1SFnGe;QRodU4X3
+R1
+w1719135971
+8C:/Users/zgd/Desktop/tiaozhi/rtl/fangwen.v
+FC:/Users/zgd/Desktop/tiaozhi/rtl/fangwen.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 dj>kEmIn0F9llUJal^o@E3
+!s85 0
+!s108 1719150625.524000
+!s107 C:/Users/zgd/Desktop/tiaozhi/rtl/fangwen.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/zgd/Desktop/tiaozhi/rtl|C:/Users/zgd/Desktop/tiaozhi/rtl/fangwen.v|
+!s101 -O0
+vrom1
+IGd7IgYMAV_VLD^`SU7:`^3
+V`hda7@G==c9dGF7kF5CDb2
+R1
+w1719147458
+8C:/Users/zgd/Desktop/tiaozhi/rtl/rom1.v
+FC:/Users/zgd/Desktop/tiaozhi/rtl/rom1.v
+L0 39
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 <TMMU9kV>oKA;Og4mKf2k0
+!s85 0
+!s108 1719150625.409000
+!s107 C:/Users/zgd/Desktop/tiaozhi/rtl/rom1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/zgd/Desktop/tiaozhi/rtl|C:/Users/zgd/Desktop/tiaozhi/rtl/rom1.v|
+!s101 -O0
+vrom2
+I7n=`LbQ:=HNzKndT=1F@B1
+VGZF2=@kWo`O8DzB;][0=e0
+R1
+w1719143614
+8C:/Users/zgd/Desktop/tiaozhi/rtl/rom2.v
+FC:/Users/zgd/Desktop/tiaozhi/rtl/rom2.v
+L0 39
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 Mn8MTG4NASX@37H`>P3?X0
+!s85 0
+!s108 1719150625.297000
+!s107 C:/Users/zgd/Desktop/tiaozhi/rtl/rom2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/zgd/Desktop/tiaozhi/rtl|C:/Users/zgd/Desktop/tiaozhi/rtl/rom2.v|
+!s101 -O0
+vswitch
+IlJe6R]AlTi3k5eBDiI7K50
+VF^0;DGkQHND8X4AAO7BXN2
+R1
+w1719148782
+8C:/Users/zgd/Desktop/tiaozhi/rtl/switch.v
+FC:/Users/zgd/Desktop/tiaozhi/rtl/switch.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 jN;=W>^cGNSc4eVA]Wn]63
+!s85 0
+!s108 1719150625.072000
+!s107 C:/Users/zgd/Desktop/tiaozhi/rtl/switch.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/zgd/Desktop/tiaozhi/rtl|C:/Users/zgd/Desktop/tiaozhi/rtl/switch.v|
+!s101 -O0
+vtb_tiaozhi
+!i10b 1
+!s100 2lNf3L0S@GT<>oN2_B0Ub0
+I8=lmUGD[LSVDbi`gV:H<L0
+V;[C9409mP9e0Poa@A8maW0
+R1
+w1719150590
+8C:/Users/zgd/Desktop/tiaozhi/simulation/modelsim/tb_tiaozhi.v
+FC:/Users/zgd/Desktop/tiaozhi/simulation/modelsim/tb_tiaozhi.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1719150625.750000
+!s107 C:/Users/zgd/Desktop/tiaozhi/simulation/modelsim/tb_tiaozhi.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/zgd/Desktop/tiaozhi/simulation/modelsim|C:/Users/zgd/Desktop/tiaozhi/simulation/modelsim/tb_tiaozhi.v|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+C:/Users/zgd/Desktop/tiaozhi/simulation/modelsim -O0
+vtiaozhi
+IZkT8HZSUe`C`lSmWVlKSd2
+V8l?8YFX];z<1ODeBhh0RY0
+R1
+w1719148731
+8C:/Users/zgd/Desktop/tiaozhi/rtl/tiaozhi.v
+FC:/Users/zgd/Desktop/tiaozhi/rtl/tiaozhi.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 I<Hh?X<U2aGkngK9Lf<`A0
+!s85 0
+!s108 1719150625.189000
+!s107 C:/Users/zgd/Desktop/tiaozhi/rtl/tiaozhi.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/zgd/Desktop/tiaozhi/rtl|C:/Users/zgd/Desktop/tiaozhi/rtl/tiaozhi.v|
+!s101 -O0
