@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at tiaozhi.v(14): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at DDS.v(7): always construct contains both blocking and non-blocking assignments
